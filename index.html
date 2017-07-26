@@ -1,17 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Restaurante</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
-	<!-- javascript	 -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="img/name-01.png" alt="Restaurante" class="logo"></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Review</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <!--SLIDER HERO SECTION-->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active" id="wood-background">  <!--SLIDE 1 (WOOD)-->
+          <div class="carousel-flex">
+            <img src="img/logo-01.png" alt="Restaurante Logo" class="img-responsive center-block" id="carousel-logo">
+          </div>
+        </div> <!--SLIDE 1 ENDS (WOOD)-->
+        <div class="item" id="seating-background"><!--SLIDE 2-->
+          <div class="carousel-caption">
+                    <h3 class="h3-text-shadow">Eat Local.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ipsum totam sed neque quaerat consequatur a dolorum nostrum ipsa aliquid sint, hic quos dolor laudantium, laborum odit voluptates temporibus doloribus!</p>
+                    <button class="btn btn-lg btn-warning">Learn More</button>
+          </div>
+        </div><!-- SLIDE 2 ENDS-->
+            <div class="item" id="farm-background"><!--SLIDE 3-->
+          <div class="carousel-caption">
+                    <h3 class="h3-text-shadow">From Farm to Table</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae ipsum totam sed neque quaerat consequatur a dolorum nostrum ipsa aliquid sint, hic quos dolor laudantium, laborum odit voluptates temporibus doloribus!</p>
+                    <button class="btn btn-lg btn-warning">Browse Gallery</button>
+          </div>
+        </div><!--SLIDE 3 ENDS-->
+        ...
+      </div>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+<!-- OUR STORY SECTION -->
+    <div class="container" id="our-story">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1 class="lobster-text">Our Story</h1>
+                <h3>One Man. One Dream.</h3>
+            </div>
+            <div class="col-sm-6 text-justify">
+                <h1 class="year-text">1989</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic consequuntur in cupiditate porro veniam inventore aspernatur repudiandae nihil atque repellendus minima cum odio architecto voluptate, harum! Tempore pariatur, animi est.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde tenetur atque impedit omnis nam incidunt, accusamus, necessitatibus ullam nemo molestias accusantium vero expedita, consequatur facilis quis nulla ducimus beatae aliquam.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta incidunt ex pariatur quae esse iure iusto quam modi aliquam quidem ipsa, sed, repellendus obcaecati cupiditate iste asperiores. Fugit, ducimus ratione.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo delectus aliquam qui assumenda blanditiis laborum optio molestias fugiat asperiores officia! Qui mollitia facere earum quidem? Ratione voluptatibus tenetur, quibusdam nesciunt.</p>
+            </div>
+            <div class="row col-sm-6"></div>
+        </div>
+    </div>
+    <!-- .container#our-story>.row>(.col-sm-6) -->
+    <!-- javascript   -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
