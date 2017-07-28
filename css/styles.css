@@ -134,7 +134,12 @@ font-size: 60px;
   padding: 8px 12px;
 }
 
-.nav-tabs>li.active>a, .nav-tabs>li.activea:focus, .nav-tabs>li.active>a:hover {
+.nav-tabs>li.active>a, .nav-tabs>li.active a:focus, .nav-tabs>li.active>a:hover, #menu a {
   color: #f8512f;
+  text-transform: uppercase;
+}
 
+.nav-tabs.nav-justified>.active>a:hover, .nav>li>a:focus, .nav>li>a:hover {
+  backgrond-color: rgba(255, 255, 255, 0.2);
+  border-color: transparent;
 }
