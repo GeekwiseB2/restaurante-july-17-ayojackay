@@ -103,11 +103,38 @@ text-shadow: 1px 1px 2px #333;
 font-size: 60px;
 }
 
-.fresno-bee p{
+.fresno-bee p {
   color: #fff;
   font-size: 20px;
   line-height: 16px;
   font-family: 'Lato', sans-serif;
   color: 1px 1px 2px #333;
   font-weight: 300;
+}
+
+.img-responsive {
+
+}
+/*MENU STYLES*/
+#menu {
+  background-image: url('../img/black_linen.png');
+  height: 600px;
+}
+
+#menu h1 {
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  font-size: 5em;
+}
+
+.food {
+  background-color: #fff;
+  height: 425px;
+  overflow: auto;
+  padding: 8px 12px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.activea:focus, .nav-tabs>li.active>a:hover {
+  color: #f8512f;
+
 }
